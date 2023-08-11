@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM public.ecr.aws/lambda/nodejs:18.2023.08.02.09-x86_64
 
 WORKDIR /app
 
